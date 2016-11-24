@@ -24,6 +24,9 @@ body {
 img {
   width: 100%;
   display: block;
+}
+
+section img {
   float: left;
 }
 
