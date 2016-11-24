@@ -24,9 +24,6 @@ body {
 img {
   width: 100%;
   display: block;
-}
-
-section img {
   float: left;
 }
 
@@ -37,13 +34,13 @@ section img:last-child {
 
 @media only screen and (min-width: 25em) {
 
+  section img {
+    width: 50%;
+  }
+
   section img:nth-child(2),
   section img:last-child {
     display: block;
-  }
-
-  section img {
-    width: 50%;
   }
 
   section img:first-child {
